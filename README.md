@@ -2,6 +2,8 @@
 
 Velora Demo - https://velora-rajdarlami.vercel.app
 
+Calci Demo - https://velora-x-calci-4mbf.vercel.app
+
 # 🧮 Calculator Studio — 3D Floating Calculator System
 
 <div align="center">
