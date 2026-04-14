@@ -18,7 +18,7 @@ Calci Demo - https://velora-x-calci-4mbf.vercel.app
 **A premium, 3D floating calculator experience built as a single-file React component.**  
 Three distinct calculators float in 3D space — swipe between them, click to focus, and interact with full working logic.
 
-[✨ Live Demo](#) · [🐛 Report Bug](#) · [💡 Request Feature](#)
+
 
 </div>
 
@@ -112,7 +112,7 @@ Four tools accessible via animated tabs:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/calculator-studio.git
+git clone https://github.com/your-username/aio-calculator.git
 cd calculator-studio
 
 # 2. Install dependencies
