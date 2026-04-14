@@ -19,10 +19,10 @@ Calci Demo - https://velora-x-calci-4mbf.vercel.app
 Three distinct calculators float in 3D space — swipe between them, click to focus, and interact with full working logic.
 
 
-
 </div>
 
 ---
+
 
 
 ## ✨ Features
@@ -74,6 +74,7 @@ Three distinct calculators float in 3D space — swipe between them, click to fo
 | **Layout** | 4-column circular button grid, `0` key spans 2 columns |
 
 ---
+
 
 ### 3. `◈` Daily Life Tools
 > **Theme:** Slate-blue frosted card
