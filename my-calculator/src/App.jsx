@@ -1,12 +1,13 @@
 import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
+
 /* ── Google Fonts ─────────────────────────────────────────── */
 const _link = Object.assign(document.createElement("link"), {
   rel: "stylesheet",
   href: "https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600&family=Inter:wght@300;400;500;600;700&display=swap",
 });
-document.head.appendChild(_link);
+doc
 
 const _style = document.createElement("style");
 _style.textContent = `
@@ -21,6 +22,7 @@ _style.textContent = `
 `;
 document.head.appendChild(_style);
 
+
 /* ── Audio ────────────────────────────────────────────────── */
 let _ctx = null;
 const beep = (f = 880, t = 0.07) => {
@@ -34,6 +36,9 @@ const beep = (f = 880, t = 0.07) => {
     o.start(); o.stop(_ctx.currentTime + t);
   } catch {}
 };
+
+
+
 
 /* ════════════════════════════════════════════════════════════
    1. SCIENTIFIC CALCULATOR  — Deep purple/indigo dark theme
@@ -171,6 +176,9 @@ function ScientificCalc() {
   );
 }
 
+
+
+
 /* ════════════════════════════════════════════════════════════
    2. CLASSIC IOS CALCULATOR — True black + amber orange
 ════════════════════════════════════════════════════════════ */
@@ -299,6 +307,9 @@ function ClassicCalc() {
     </div>
   );
 }
+
+
+
 
 /* ════════════════════════════════════════════════════════════
    3. DAILY LIFE TOOLS — Slate-blue frosted card theme
@@ -485,6 +496,8 @@ function DailyCalc() {
   );
 }
 
+
+
 /* ════════════════════════════════════════════════════════════
    CARDS CONFIG
 ════════════════════════════════════════════════════════════ */
@@ -493,6 +506,8 @@ const CARDS = [
   { id:"ios",   label:"Classic",     sub:"iOS-style Calculator",     emoji:"◎",  accent:"#ff9f0a", Comp:ClassicCalc   },
   { id:"daily", label:"Daily Tools", sub:"BMI · SI · SIP · Age",     emoji:"◈",  accent:"#38bdf8", Comp:DailyCalc     },
 ];
+
+
 
 /* ════════════════════════════════════════════════════════════
    CARD COMPONENT
@@ -578,6 +593,8 @@ function Card({ data, offset, expanded, onExpand, onFocus }) {
     </motion.div>
   );
 }
+
+
 
 /* ════════════════════════════════════════════════════════════
    ROOT APP
